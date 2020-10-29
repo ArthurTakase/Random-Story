@@ -84,7 +84,7 @@ let themes = ["Je vais vous avouer quelque chose de grave.",
               "J'ai jamais pu retirer mes skis.",
               "Depuis un an et demi, j'ai décidé de ne plus avoir d'amis."];
 let dice1 = ["Tu vas pas me croire", "Bon écoutez moi !", "L'autre jour", "Je dois vous avouer", "Je connais quelqu'un", "Quand j'étais petit"];
-let dice2 = ["Or", "C'est pourquoi", "Donc", "Mais", "Mais vous savez quoi", "En réalité"];
+let dice2 = ["Or", "C'est pourquoi", "Mais", "Mais vous savez quoi", "En réalité"];
 let dice3 = ["Donc", "Je précise que", "Bon tu me connais", "Moi, tranquille", "D'un autre côté", "En fait"];
 let dice4 = ["Là ça se complique", "Ah, j'oubliais !", "C'est vrai que", "Du coup", "Et là, patatras !", "A ce moment là"];
 let dice5 = ["Finalement", "Bref !", "Et le pire !", "J'avais prévu le coup", "Coup de bol"];
@@ -96,7 +96,7 @@ function random(mn, mx) {
 
 function change_value() {
   document.getElementById('span1').innerHTML = dice1[Math.floor(random(1, 7))-1];
-  document.getElementById('span2').innerHTML = dice2[Math.floor(random(1, 7))-1];
+  document.getElementById('span2').innerHTML = dice2[Math.floor(random(1, 6))-1];
   document.getElementById('span3').innerHTML = dice3[Math.floor(random(1, 7))-1];
   document.getElementById('span4').innerHTML = dice4[Math.floor(random(1, 7))-1];
   document.getElementById('span5').innerHTML = dice5[Math.floor(random(1, 6))-1];
