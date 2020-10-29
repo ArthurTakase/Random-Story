@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="fr" class="theme-dark">
+<head>
+	<meta charset="utf-8">
+	<!--Importation des CSS-->
+	<link rel="stylesheet" href="css/master.css">
+	<link rel="stylesheet" href="css/theme.css">
+	<link rel="stylesheet" href="css/story.css">
+	<!--Importation du JS-->
+	<script src="js/themeswitch.js" type="text/javascript" defer></script>
+	<script src="js/story" type="text/javascript" defer></script>
+	<!--Importation des polices d'écriture-->
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Condensed&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,200&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap" rel="stylesheet">
+	<!--Parametres de l'onglet-->
+	<link rel="shortcut icon" type="image/png" href="img/all/favicon.png"/>
+	<title>Takase - Template</title>
+</head>
+
+<body>
+	<!--Header-->
+	<div class="link_zone">
+		<!--Bouton Switch Theme-->
+		<div class="switch_theme_zone">
+			<button class="btn_theme" onclick="toggleTheme()"><img class="theme_picture" src="img/all/sun.png" alt="time"></button>
+		</div>
+		<!--Boutons de navigation du site-->
+		<a class="link_header" href="draw.html">Draw</a>
+		<a class="link_header_title" href="index.html">Takase</a>
+		<a class="link_header" href="dev.html">Dev</a>
+	</div>
+	<!--Div principale-->
+	<div class="gallery">
+		<!--Première partie de la page-->
+		<div class="zone1">
+			<div class="anti_header"></div>
+			<p class="title_page">Random Story</p>
+		  	<hr width="10%"><br>
+		  	<p class="subtitle">A vous de jouer ! Cliquez sur "Générer" et créez votre histoire.</p>
+			<!--Ecrire ici-->
+			<p class="title_story">Ton thème sera...</p>
+			<!--Ecrire ici-->
+			<div class="dice_view un">
+				<p class="description_dice"><span id="span1">Etape 1</span></p>
+			</div>
+			<div class="dice_view deux">
+				<p class="description_dice"><span id="span2">Etape 2</span></p>
+			</div>
+			<div class="dice_view trois">
+				<p class="description_dice"><span id="span3">Etape 3</span></p>
+			</div>
+			<div class="dice_view quatre">
+				<p class="description_dice"><span id="span4">Etape 4</span></p>
+			</div>
+			<div class="dice_view cinq">
+				<p class="description_dice"><span id="span5">Etape 5</span></p>
+			</div>
+			<div class="dice_view six">
+				<p class="description_dice"><span id="span6">Etape 6</span></p>
+			</div>
+			<!--Ecrire ici-->
+			<div class="button_zone">
+				<button class="btn_clicker" onclick="change_value()">Générer</p>
+			</div>
+			<!--Ecrire ici-->
+		</div>
+	</div>
+</body>
+
+<!--Zone du bas de la page-->
+<footer>
+	<p class="footer_text"><b>Tous droits réservés ©Takase - 2020</b></p>
+</footer>
+</html>
