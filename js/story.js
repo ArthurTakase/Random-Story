@@ -99,7 +99,7 @@ function change_value() {
   document.getElementById('span2').innerHTML = dice2[Math.floor(random(1, 7))-1];
   document.getElementById('span3').innerHTML = dice3[Math.floor(random(1, 7))-1];
   document.getElementById('span4').innerHTML = dice4[Math.floor(random(1, 7))-1];
-  document.getElementById('span5').innerHTML = dice5[Math.floor(random(1, 7))-1];
-  document.getElementById('span6').innerHTML = dice6[Math.floor(random(1, 7))-1];
+  document.getElementById('span5').innerHTML = dice5[Math.floor(random(1, 6))-1];
+  document.getElementById('span6').innerHTML = dice6[Math.floor(random(1, 6))-1];
   document.getElementById('theme').innerHTML = themes[Math.floor(random(1, 86))-1];
 }
