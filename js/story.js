@@ -93,6 +93,7 @@ let themes = ["Je vais vous avouer quelque chose de grave.",
               "Et dans la bouteille, il y avait un message.",
               "J'ai creusé un trou un peu trop profond.",
               "J'ai trouvé une girafe dans mon grenier",
+              "J'ai déjà été disque d'or.",
               "Petit(e), j'ai été élevé(e) par une famille de singes.",
               "J'ai été champion(ne) d'Europe de cache-cache.",
               "Depuis un an et demi, j'ai décidé de ne plus avoir d'amis."];
