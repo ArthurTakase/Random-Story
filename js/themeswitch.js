@@ -14,6 +14,8 @@ function setTheme(themeName) {
 		document.getElementById("arrow1")?.setAttribute("src", "img/index/arrow_light.png");
 		document.getElementById("arrow2")?.setAttribute("src", "img/index/arrow_light.png");
 		document.getElementById("arrow3")?.setAttribute("src", "img/index/arrow_light.png");
+    document.getElementById("reload")?.setAttribute("src", "img/story/reload_light.png");
+    document.getElementById("web")?.setAttribute("src", "img/story/web_light.png");
 		document.querySelectorAll(".theme_picture").forEach(el => el.setAttribute("src", "img/all/moon.png"));
     document.querySelectorAll(".theme_picture_mobile").forEach(el => el.setAttribute("src", "img/all/moon.png"));
 
@@ -28,6 +30,8 @@ function setTheme(themeName) {
 		document.getElementById("arrow1")?.setAttribute("src", "img/index/arrow.png");
 		document.getElementById("arrow2")?.setAttribute("src", "img/index/arrow.png");
 		document.getElementById("arrow3")?.setAttribute("src", "img/index/arrow.png");
+    document.getElementById("reload")?.setAttribute("src", "img/story/reload.png");
+    document.getElementById("web")?.setAttribute("src", "img/story/web.png");
 		document.querySelectorAll(".theme_picture")?.forEach(el => el.setAttribute("src", "img/all/sun.png"));
     document.querySelectorAll(".theme_picture_mobile")?.forEach(el => el.setAttribute("src", "img/all/sun.png"));
 	}
