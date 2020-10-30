@@ -4,7 +4,6 @@
 	margin-bottom: 20px;
 	border-radius: 7px;
 	box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
-	overflow: hidden;
 	transition: 0.3s;
 }
 
@@ -18,12 +17,12 @@ body {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  width: 80vw;
+  width: 70vw;
   margin-bottom: 0.7rem;
   border-radius: 1rem;
   height: 10vh;
-  overflow: hidden;
   transition: 0.5s;
+  overflow: visible;
 }
 
 .dice:hover {
@@ -34,7 +33,9 @@ body {
 .description_dice {
 	font-family: 'Raleway', sans-serif;
 	color: black;
-  font-size: 1.5rem;
+  font-size: 2.5vh;
+  margin: 0 auto;
+  padding: 3vh;
 }
 
 .un {
@@ -71,8 +72,8 @@ body {
   position: fixed;
   left: 1.5rem;
   bottom: 1.5rem;
-	width: 5rem;
-	height: 5rem;
+	width: 7vh;
+	height: 7vh;
   transition: 0.5s;
 }
 
@@ -85,8 +86,8 @@ body {
   position: fixed;
   right: 1.5rem;
   bottom: 1.5rem;
-	width: 5rem;
-	height: 5rem;
+	width: 7vh;
+	height: 7vh;
 	transition: 0.5s;
 }
 
@@ -95,8 +96,23 @@ body {
   transition: 0.5s;
 }
 
+.title_zone {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  width: 70vw;
+  margin-bottom: 0.7rem;
+  border-radius: 1rem;
+  height: 13vh;
+  transition: 0.5s;
+  overflow: visible;
+}
+
 .title_story_mobile {
-	/*text-align: center;*/
-	font-family: 'Roboto Condensed', sans-serif;
-	font-size: 2rem;
+	font-family: 'Staatliches', cursive;
+	font-size: 3.5vh;
+}
+
+.header_mobile {
+  height: 2vh;
 }
