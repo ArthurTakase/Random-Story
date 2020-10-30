@@ -34,32 +34,32 @@ body {
 
 .un {
 	background-color: #FF9AA2;
-  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+  box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
 .deux {
 	background-color: #FFB7B2;
-  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+  box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
 .trois {
 	background-color: #FFDAC1;
-  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+  box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
 .quatre {
 	background-color: #E2F0CB;
-  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+  box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
 .cinq {
 	background-color: #B5EAD7;
-  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+  box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
 .six {
 	background-color: #C7CEEA;
-  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+  box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
 .btn_clicker_story_mobile {
