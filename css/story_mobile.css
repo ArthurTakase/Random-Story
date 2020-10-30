@@ -1,0 +1,74 @@
+.dice_view {
+	display: inline-block;
+	margin: 30px;
+	margin-bottom: 20px;
+	border-radius: 7px;
+	box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
+	overflow: hidden;
+	transition: 0.3s;
+}
+
+.dice {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  margin: 0 auto;
+  width: 100vw;
+  height: 14.28vh;
+}
+
+.description_dice {
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	color: black;
+}
+
+.un {
+	background-color: #FF9AA2;
+}
+
+.deux {
+	background-color: #FFB7B2;
+}
+
+.trois {
+	background-color: #FFDAC1;
+}
+
+.quatre {
+	background-color: #E2F0CB;
+}
+
+.cinq {
+	background-color: #B5EAD7;
+}
+
+.six {
+	background-color: #C7CEEA;
+}
+
+.button_zone_story {
+	text-align: center;
+	padding: 20px;
+  position: fixed;
+  right : 0px;
+  bottom: 0px;
+}
+
+.btn_clicker_story {
+	font-family: 'Roboto Condensed', sans-serif;
+	width: 180px;
+	height: 50px;
+	font-size: 16px;;
+	color: white;
+	font-weight: bold;
+	background-color: var(--button-background);
+	border-radius: 20px;;
+	border: none;
+	box-shadow: 1px 1px 12px #24262a;
+	transition: 0.3s;
+}
+
+.btn_clicker_story:active {
+	transform: translateY(5px);
+}
