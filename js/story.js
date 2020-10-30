@@ -82,11 +82,24 @@ let themes = ["Je vais vous avouer quelque chose de grave.",
               "Je vais vous avouer quelque chose de grave.",
               "Ma collection unique au monde.",
               "J'ai jamais pu retirer mes skis.",
+              "Je me suis fait(e) virer de l'école des magiciens.",
+              "Moi aussi, j'ai marché sur la Lune.",
+              "Avec ma licorne chez le vétérinaire.",
+              "Comment j'ai réveillé la Belle au bois dormant.",
+              "J'ai une petite voix dans ma tête.",
+              "On m'avait dit : 'Ne souffle pas dans la trompe de l'éléphant'.",
+              "Un jour, j'ai dû punir mes parents.",
+              "Oups, j'ai avalé un perroquet.",
+              "Et dans la bouteille, il y avait un message.",
+              "J'ai creusé un trou un peu trop profond.",
+              "J'ai trouvé une girafe dans mon grenier",
+              "Petit(e), j'ai été élevé(e) par une famille de singes.",
+              "J'ai été champion(ne) d'Europe de cache-cache.",
               "Depuis un an et demi, j'ai décidé de ne plus avoir d'amis."];
 let dice1 = ["Tu vas pas me croire", "Bon écoutez moi !", "L'autre jour", "Je dois vous avouer", "Je connais quelqu'un", "Quand j'étais petit"];
-let dice2 = ["Or", "C'est pourquoi", "Mais", "Mais vous savez quoi", "En réalité", "Je ne sais pas si vous avez remarqué"];
-let dice3 = ["Donc", "Je précise que", "Bon tu me connais", "Moi, tranquille", "D'un autre côté", "En fait"];
-let dice4 = ["Là ça se complique", "Ah, j'oubliais !", "C'est vrai que", "Du coup", "Et là, patatras !", "A ce moment là"];
+let dice2 = ["Or", "C'est pourquoi", "Mais", "Mais vous savez quoi", "En réalité", "Je sais pas si vous avez remarqué", "Et croyez-moi"];
+let dice3 = ["Donc", "Je précise que", "Bon tu me connais", "Moi, tranquille", "D'un autre côté", "En fait", "En tout cas"];
+let dice4 = ["Là ça se complique", "Ah, j'oubliais !", "C'est vrai que", "Du coup", "Et là, patatras !", "A ce moment là", "Comme par hasard"];
 let dice5 = ["Finalement", "Bref !", "Et le pire !", "J'avais prévu le coup", "Coup de bol"];
 let dice6 = ["Et le drame", "La prochaine fois", "Comme dirait ma mamie", "Conclusion", "C'est ainsi que"];
 
@@ -95,11 +108,11 @@ function random(mn, mx) {
 }
 
 function change_value() {
-  document.getElementById('span1').innerHTML = dice1[Math.floor(random(1, 7))-1];
-  document.getElementById('span2').innerHTML = dice2[Math.floor(random(1, 6))-1];
-  document.getElementById('span3').innerHTML = dice3[Math.floor(random(1, 7))-1];
-  document.getElementById('span4').innerHTML = dice4[Math.floor(random(1, 7))-1];
-  document.getElementById('span5').innerHTML = dice5[Math.floor(random(1, 6))-1];
-  document.getElementById('span6').innerHTML = dice6[Math.floor(random(1, 6))-1];
-  document.getElementById('theme').innerHTML = themes[Math.floor(random(1, 86))-1];
+  document.getElementById('span1').innerHTML = dice1[Math.floor(random(0, dice1.length))];
+  document.getElementById('span2').innerHTML = dice2[Math.floor(random(0, dice2.length))];
+  document.getElementById('span3').innerHTML = dice3[Math.floor(random(0, dice3.length))];
+  document.getElementById('span4').innerHTML = dice4[Math.floor(random(0, dice4.length))];
+  document.getElementById('span5').innerHTML = dice5[Math.floor(random(0, dice5.length))];
+  document.getElementById('span6').innerHTML = dice6[Math.floor(random(0, dice6.length))];
+  document.getElementById('theme').innerHTML = themes[Math.floor(random(0, themes.length))];
 }

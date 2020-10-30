@@ -120,6 +120,7 @@ body {
 .title_story_mobile {
 	font-family: 'Staatliches', cursive;
 	font-size: 3.5vh;
+	vertical-align: middle;
 }
 
 .header_mobile {
