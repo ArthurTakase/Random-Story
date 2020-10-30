@@ -8,67 +8,70 @@
 	transition: 0.3s;
 }
 
+body {
+  margin: 0 auto;
+  text-align: center;
+}
+
 .dice {
   display: inline-block;
   text-align: center;
   vertical-align: middle;
-  margin: 0 auto;
-  width: 100vw;
-  height: 14.28vh;
+  width: 80vw;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  height: 10vh;
+  overflow: hidden;
 }
 
 .description_dice {
 	font-family: 'Noto Sans JP', sans-serif;
 	text-align: center;
+  vertical-align: middle;;
 	color: black;
+  font-size: 2rem;
 }
 
 .un {
 	background-color: #FF9AA2;
+  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
 }
 
 .deux {
 	background-color: #FFB7B2;
+  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
 }
 
 .trois {
 	background-color: #FFDAC1;
+  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
 }
 
 .quatre {
 	background-color: #E2F0CB;
+  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
 }
 
 .cinq {
 	background-color: #B5EAD7;
+  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
 }
 
 .six {
 	background-color: #C7CEEA;
+  box-shadow: 1px 1px var(--shadow-profile) var(--shadow-dice);
 }
 
-.button_zone_story {
-	text-align: center;
-	padding: 20px;
+.btn_clicker_story_mobile {
   position: fixed;
-  right : 0px;
-  bottom: 0px;
+  right : 1rem;
+  bottom: 1rem;
+	width: 4rem;
+	height: 4rem;
+	transition: 0.5s;
 }
 
-.btn_clicker_story {
-	font-family: 'Roboto Condensed', sans-serif;
-	width: 180px;
-	height: 50px;
-	font-size: 16px;;
-	color: white;
-	font-weight: bold;
-	background-color: var(--button-background);
-	border-radius: 20px;;
-	border: none;
-	box-shadow: 1px 1px 12px #24262a;
-	transition: 0.3s;
-}
-
-.btn_clicker_story:active {
-	transform: translateY(5px);
+.btn_clicker_story_mobile:active {
+	transform: translateY(0.5rem) rotate(45deg);
+  transition: 0.5s;
 }
