@@ -85,7 +85,7 @@ body {
 .start_btn {
   position: fixed;
   transform: rotate(180deg);
-  right: 43vw;
+  text-align: center;
 	width: 7vh;
 	height: 7vh;
   transition: 0.5s;
@@ -129,8 +129,32 @@ body {
 .title_index {
   padding-top: 20vh;
   font-family: 'Staatliches', cursive;
-	font-size: 8vh;
+	font-size: 9vh;
   animation: cauda 2s linear infinite;
+}
+
+.button_zone_story {
+	text-align: center;
+	padding: 20px;
+	margin: 0 auto;
+}
+
+.btn_clicker_story {
+	font-family: 'Raleway', sans-serif;
+	width: 25vw;
+	height: 7vh;
+	font-size: 2vh;
+	color: white;
+	font-weight: bold;
+	background-color: var(--button-background);
+	border-radius: 20px;;
+	border: none;
+	box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
+	transition: 0.3s;
+}
+
+.btn_clicker_story:active {
+	transform: translateY(5px);
 }
 
 @keyframes cauda {
