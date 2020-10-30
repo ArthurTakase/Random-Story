@@ -23,15 +23,33 @@
 	<title>Takase - Random Story</title>
 </head>
 
-<body>
+<body onload="change_value()">
 	<!--Div principale-->
 			<!--Ecrire ici-->
 			<div class="header_mobile"></div>
-			<p class="title_index">Random Story</p>
+			<p class="title_zone title_story_mobile"><span id="theme">Ton thème sera...</span></p>
 			<!--Ecrire ici-->
-			<a href="game.html"><img class="start_btn" src="img/story/back.png" alt="start"/></a>
+			<div class="dice un">
+				<p class="description_dice"><span id="span1">Etape 1</span></p>
+			</div>
+			<div class="dice deux">
+				<p class="description_dice"><span id="span2">Etape 2</span></p>
+			</div>
+			<div class="dice trois">
+				<p class="description_dice"><span id="span3">Etape 3</span></p>
+			</div>
+			<div class="dice quatre">
+				<p class="description_dice"><span id="span4">Etape 4</span></p>
+			</div>
+			<div class="dice cinq">
+				<p class="description_dice"><span id="span5">Etape 5</span></p>
+			</div>
+			<div class="dice six">
+				<p class="description_dice"><span id="span6">Etape 6</span></p>
+			</div>
 			<!--Ecrire ici-->
 			<img class="theme_picture_mobile" src="img/all/sun.png" alt="time" onclick="toggleTheme()"/>
+			<img src="img/story/reload.png" alt="reload" class="btn_clicker_story_mobile" onclick="change_value()"/>
 			<!--Ecrire ici-->
 </body>
 </html>

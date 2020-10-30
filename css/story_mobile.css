@@ -82,6 +82,15 @@ body {
   transition: 0.5s;
 }
 
+.start_btn {
+  position: fixed;
+  transform: rotate(180deg);
+  right: 43vw;
+	width: 7vh;
+	height: 7vh;
+  transition: 0.5s;
+}
+
 .btn_clicker_story_mobile {
   position: fixed;
   right: 1.5rem;
@@ -115,4 +124,23 @@ body {
 
 .header_mobile {
   height: 2vh;
+}
+
+.title_index {
+  padding-top: 20vh;
+  font-family: 'Staatliches', cursive;
+	font-size: 8vh;
+  animation: cauda 2s linear infinite;
+}
+
+@keyframes cauda {
+  0% {
+    transform: scale(0.9);
+  }
+  50% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(0.9);
+  }
 }
