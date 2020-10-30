@@ -15,7 +15,8 @@ function setTheme(themeName) {
 		document.getElementById("arrow2")?.setAttribute("src", "img/index/arrow_light.png");
 		document.getElementById("arrow3")?.setAttribute("src", "img/index/arrow_light.png");
 		document.querySelectorAll(".theme_picture").forEach(el => el.setAttribute("src", "img/all/moon.png"));
-		
+    document.querySelectorAll(".theme_picture_mobile").forEach(el => el.setAttribute("src", "img/all/moon.png"));
+
 	}
 	else {
 		document.getElementById("yt")?.setAttribute("src", "img/index/yt.png");
@@ -28,6 +29,7 @@ function setTheme(themeName) {
 		document.getElementById("arrow2")?.setAttribute("src", "img/index/arrow.png");
 		document.getElementById("arrow3")?.setAttribute("src", "img/index/arrow.png");
 		document.querySelectorAll(".theme_picture")?.forEach(el => el.setAttribute("src", "img/all/sun.png"));
+    document.querySelectorAll(".theme_picture_mobile")?.forEach(el => el.setAttribute("src", "img/all/sun.png"));
 	}
 }
 // function to toggle between light and dark theme

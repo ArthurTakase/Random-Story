@@ -11,21 +11,27 @@
 body {
   margin: 0 auto;
   text-align: center;
+  vertical-align: middle;
 }
 
 .dice {
   display: inline-block;
   text-align: center;
-  vertical-align: middle;
   width: 80vw;
-  margin-bottom: 1rem;
+  margin-bottom: 0.7rem;
   border-radius: 1rem;
   height: 10vh;
   overflow: hidden;
+  transition: 0.5s;
+}
+
+.dice:hover {
+  transform: scale(1.02);
+  transition: 0.5s;
 }
 
 .description_dice {
-	font-family: 'Noto Sans JP', sans-serif;
+	font-family: 'Raleway', sans-serif;
 	text-align: center;
   vertical-align: middle;;
 	color: black;
@@ -62,6 +68,20 @@ body {
   box-shadow: 0rem 0.5rem var(--shadow-profile) var(--shadow-dice);
 }
 
+.theme_picture_mobile {
+  position: fixed;
+  left : 1rem;
+  bottom: 1rem;
+	width: 4rem;
+	height: 4rem;
+  transition: 0.5s;
+}
+
+.theme_picture_mobile:active {
+  transform: translateY(0.5rem) rotate(45deg);
+  transition: 0.5s;
+}
+
 .btn_clicker_story_mobile {
   position: fixed;
   right : 1rem;
@@ -74,4 +94,10 @@ body {
 .btn_clicker_story_mobile:active {
 	transform: translateY(0.5rem) rotate(45deg);
   transition: 0.5s;
+}
+
+.title_story_mobile {
+	/*text-align: center;*/
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 2rem;
 }
