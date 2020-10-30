@@ -104,15 +104,15 @@ let dice5 = ["Finalement", "Bref !", "Et le pire !", "J'avais prévu le coup", "
 let dice6 = ["Et le drame", "La prochaine fois", "Comme dirait ma mamie", "Conclusion", "C'est ainsi que"];
 
 function random(mn, mx) {
-  return Math.random() * (mx - mn) + mn;
+  return Math.floor(Math.random() * (mx - mn) + mn);
 }
 
 function change_value() {
-  document.getElementById('span1').innerHTML = dice1[Math.floor(random(0, dice1.length))];
-  document.getElementById('span2').innerHTML = dice2[Math.floor(random(0, dice2.length))];
-  document.getElementById('span3').innerHTML = dice3[Math.floor(random(0, dice3.length))];
-  document.getElementById('span4').innerHTML = dice4[Math.floor(random(0, dice4.length))];
-  document.getElementById('span5').innerHTML = dice5[Math.floor(random(0, dice5.length))];
-  document.getElementById('span6').innerHTML = dice6[Math.floor(random(0, dice6.length))];
-  document.getElementById('theme').innerHTML = themes[Math.floor(random(0, themes.length))];
+  document.getElementById('span1').innerHTML = dice1[random(0, dice1.length)];
+  document.getElementById('span2').innerHTML = dice2[random(0, dice2.length)];
+  document.getElementById('span3').innerHTML = dice3[random(0, dice3.length)];
+  document.getElementById('span4').innerHTML = dice4[random(0, dice4.length)];
+  document.getElementById('span5').innerHTML = dice5[random(0, dice5.length)];
+  document.getElementById('span6').innerHTML = dice6[random(0, dice6.length)];
+  document.getElementById('theme').innerHTML = themes[random(0, themes.length)];
 }
